@@ -89,3 +89,112 @@ h2{
     color: gray ;
     
 }
+
+/* New styles for updated design */
+header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#banner-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+#title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    color: white;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#description {
+    max-width: 800px;
+    text-align: center;
+}
+
+#team {
+    margin-top: 20px;
+}
+
+#team-img {
+    max-width: 100%;
+    height: auto;
+}
+
+#job-opportunities {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+#jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#jobs > div {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.apply {
+    float: none;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.apply:hover {
+    background-color: #0056b3;
+}
+
+#footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+#footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#footer-links li {
+    margin: 0 15px;
+}
+
+#footer-links a {
+    color: white;
+}
+
+.copy-right {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
